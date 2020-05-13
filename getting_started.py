@@ -10,7 +10,7 @@ simu.create_atoms(element='C',positions=[[0, 0, 0],
 simu.create_interaction(['C','C'],strength=10.0,equilibrium_distance=5.0)
 
 # give the atoms some initial velocities
-vs = [[0.1, 0, 0],[-0.1, 0, 0]]
+vs = [[0.1, 0.1, 0],[-0.1, 0, 0]]
 simu.set_velocities(indices=range(2), velocity=vs)
 
 # tell that we want to run the simulation with default settings
