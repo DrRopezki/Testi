@@ -1,4 +1,6 @@
 # BRYGÄLÄÄ!
+
+#NO NIIN
 #! /usr/bin/env python
 import friction_tools as ft
 
